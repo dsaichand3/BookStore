@@ -1,0 +1,15 @@
+<nav class="navbar">
+    <div class="logo">
+      <!-- Your application logo or branding -->
+    </div>
+    <div class="user-icon" [matMenuTriggerFor]="userMenu">
+      <!-- Angular Material user icon -->
+      <mat-icon>account_circle</mat-icon>
+    </div>
+</nav>
+  
+<mat-menu #userMenu="matMenu">
+  <button mat-menu-item (click)="sellClicked()">Sell</button>
+  <button mat-menu-item (click)="accountClicked()">Account</button>
+  <button mat-menu-item (click)="logoutClicked()">Log Out</button>
+</mat-menu>

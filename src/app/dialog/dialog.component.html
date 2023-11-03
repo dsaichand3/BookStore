@@ -1,0 +1,18 @@
+<div class="dialog-box">
+    <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+        <label for="name">Book Name</label>
+        <input type="text" id="name" formControlName="bookName">
+
+        <label for="aurthor">Author</label>
+        <input type="text" id="email" formControlName="author">
+
+        <label for="price">Price</label>
+        <input type="text" id="name" formControlName="price">
+
+        <label for="location">Location</label>
+        <input type="text" id="email" formControlName="location">
+
+        <button type="submit">Submit</button>
+    </form>
+    <!-- <button (click)="closeDialog()">Close</button> -->
+</div>

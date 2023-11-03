@@ -1,0 +1,39 @@
+/* navigation.component.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #878a90;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .user-icon {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .user-icon mat-icon {
+    margin-left: 5px;
+  }
+
+  .mat-menu-content {
+    width: 200px; /* Set the desired width for the menu */
+    padding: 8px; /* Adjust the padding as needed */
+  }
+  
+  /* Update the padding and font size for menu items */
+  .mat-menu-item {
+    padding: 8px 16px; /* Adjust the padding for menu items */
+    font-size: 14px; /* Set the desired font size for menu items */
+    text-align: left;
+  }
+  
+  /* Hover style (optional) */
+  .mat-menu-item:hover {
+    background-color: #e0e0e0;
+  }
+  
