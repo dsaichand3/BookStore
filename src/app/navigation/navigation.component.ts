@@ -1,6 +1,7 @@
+
 import { Component } from '@angular/core';
-import { SellComponent } from '../sell/sell.component';
-import { MatDialog } from '@angular/material/dialog';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-navigation',
@@ -9,11 +10,10 @@ import { MatDialog } from '@angular/material/dialog';
 })
 export class NavigationComponent {
 
-  constructor(public matdialog: MatDialog) {}
+  constructor(public router: Router) {}
 
   sellClicked() {
-
-    this.matdialog.open(SellComponent);
+    this.router.navigate(['sell']);
 
   }
   accountClicked(){

@@ -13,7 +13,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { DialogComponent } from './dialog/dialog.component';
 import { MatDialogModule } from '@angular/material/dialog';
 
-
 @NgModule({
   declarations: [
     AppComponent,
